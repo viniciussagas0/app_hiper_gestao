@@ -1,0 +1,1 @@
+<h3>Hello world no fornecedor controller pela view</h3><?php /**PATH C:\Users\Suporte\Documents\Coding\app_hiper_gestao\resources\views/app/index.blade.php ENDPATH**/ ?>
