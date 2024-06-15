@@ -25,7 +25,7 @@
 
     <div class="informacao-pagina">
         <div class="contato-principal">
-            <?php $__env->startComponent('site.layouts._components.form_contato', ['classe' => 'borda-preta']); ?>
+            <?php $__env->startComponent('site.layouts._components.form_contato', ['classe' => 'borda-preta', 'motivo_contatos' => $motivo_contatos]); ?>
             <p>Nossa equipe retornara brevemente</p>
             <p>respostá média de 48horas.</p>
             <?php if (isset($__componentOriginal5fd4ee279ef26e11bb1719135c3a842ac3f4e58e)): ?>
