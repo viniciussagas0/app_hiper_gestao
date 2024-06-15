@@ -29,7 +29,7 @@
         <div class="contato">
             <h1>Contato</h1>
             <p>Caso tenha qualquer dúvida por favor entre em contato com nossa equipe pelo formulário abaixo.<p>
-            <?php $__env->startComponent('site.layouts._components.form_contato', ['classe' => 'borda-branca']); ?>
+            <?php $__env->startComponent('site.layouts._components.form_contato', ['classe' => 'borda-branca', 'motivo_contatos' => $motivo_contatos]); ?>
             <?php if (isset($__componentOriginal5fd4ee279ef26e11bb1719135c3a842ac3f4e58e)): ?>
 <?php $component = $__componentOriginal5fd4ee279ef26e11bb1719135c3a842ac3f4e58e; ?>
 <?php unset($__componentOriginal5fd4ee279ef26e11bb1719135c3a842ac3f4e58e); ?>
