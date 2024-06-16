@@ -13,7 +13,7 @@
                     <option value="">Qual o motivo do contato?</option>
 
                     <?php $__currentLoopData = $motivo_contatos; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $motivo_contato): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                        <option value="<?php echo e($key); ?>" <?php echo e(old('motivo_contato') == $key ? 'selected' : ''); ?>><?php echo e($motivo_contato); ?></option>
+                        <option value="<?php echo e($motivo_contato->id); ?>" <?php echo e(old('motivo_contato') == $motivo_contato->id ? 'selected' : ''); ?>><?php echo e($motivo_contato->motivo_contato); ?></option>
                     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                     
                 </select>
