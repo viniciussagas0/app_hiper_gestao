@@ -9,11 +9,11 @@
                 <br>
                 <input name="email" value="<?php echo e(old('email')); ?>" type="text" placeholder="E-mail" class="<?php echo e($classe); ?>">
                 <br>
-                <select name="motivo_contato" class="<?php echo e($classe); ?>">
+                <select name="motivo_contatos_id" class="<?php echo e($classe); ?>">
                     <option value="">Qual o motivo do contato?</option>
 
                     <?php $__currentLoopData = $motivo_contatos; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $motivo_contato): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                        <option value="<?php echo e($motivo_contato->id); ?>" <?php echo e(old('motivo_contato') == $motivo_contato->id ? 'selected' : ''); ?>><?php echo e($motivo_contato->motivo_contato); ?></option>
+                        <option value="<?php echo e($motivo_contato->id); ?>" <?php echo e(old('motivo_contatos_id') == $motivo_contato->id ? 'selected' : ''); ?>><?php echo e($motivo_contato->motivo_contato); ?></option>
                     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                     
                 </select>
