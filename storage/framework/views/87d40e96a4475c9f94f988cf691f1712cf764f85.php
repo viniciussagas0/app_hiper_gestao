@@ -36,6 +36,7 @@
         </div>
     </div>  
 </div>
+    
 
 <div class="rodape">
     <div class="redes-sociais">
@@ -53,7 +54,12 @@
     <div class="localizacao">
         <h2>Localização</h2>
         <img src="img/mapa.png">
+        
     </div>
 </div>
 <?php $__env->stopSection(); ?>
+
+
+
+
 <?php echo $__env->make('site.layouts.basico', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\Vinicius\Documents\GitHub\app_hiper_gestao\resources\views/site/contato.blade.php ENDPATH**/ ?>

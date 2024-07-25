@@ -32,6 +32,7 @@
         </div>
     </div>  
 </div>
+    
 
 <div class="rodape">
     <div class="redes-sociais">
@@ -49,6 +50,10 @@
     <div class="localizacao">
         <h2>Localização</h2>
         <img src="img/mapa.png">
+        
     </div>
 </div>
 @endsection
+
+
+
